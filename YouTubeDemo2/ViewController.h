@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YouTubeHelper.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<YouTubeHelperDelegate>
 
+- (IBAction)logout:(id)sender;
 
 @end
 
