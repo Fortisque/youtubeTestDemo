@@ -80,5 +80,8 @@
 }
 
 - (IBAction)logout:(id)sender {
+  [_youtubeHelper signOut];
+  [_youtubeHelper authenticate];
 }
+
 @end
