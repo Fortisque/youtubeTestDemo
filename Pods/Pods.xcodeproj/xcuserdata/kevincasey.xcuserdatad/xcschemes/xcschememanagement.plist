@@ -4,17 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Google-API-Client.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-gtm-http-fetcher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-gtm-oauth2.xcscheme</key>
+		<key>Google-API-Client.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,25 +14,45 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>gtm-http-fetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>gtm-oauth2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>22FC370007426C451D9E14A2</key>
+		<key>262936FD071CF6AFC3668DFBCAC9FFA6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>258D4FB3DBD760461C51F408</key>
+		<key>5352D432641F0656C90741034E32F31E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3F329B9E202C44C084707346</key>
+		<key>AA7D3BCDF8F2F22F5458CFB612E1100F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>89834BA6308DF96003D6B077</key>
+		<key>BFB52D605B53390216D2BB1399449389</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA0544DE123BD93EA17BD5B8E9311269</key>
 		<dict>
 			<key>primary</key>
 			<true/>

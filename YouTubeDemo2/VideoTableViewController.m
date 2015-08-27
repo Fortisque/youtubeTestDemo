@@ -11,6 +11,8 @@
 #import "VideoTableViewCell.h"
 #import "VideoViewController.h"
 
+#import <SDWebImage/UIImageView+WebCache.h>
+
 @interface VideoTableViewController ()
 
 @end
@@ -119,10 +121,9 @@
     }
     
     [cell.titleLabel setText:video.snippet.title];
+
     NSURL *url = [NSURL URLWithString:video.snippet.thumbnails.defaultProperty.url];
-    NSData *imageData = [NSData dataWithContentsOfURL:url];
-    UIImage *image = [UIImage imageWithData:imageData];
-    [cell.thumbnail setImage:image];
+    [cell.thumbnail sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"placeholder"]];
 
     return cell;
 }
