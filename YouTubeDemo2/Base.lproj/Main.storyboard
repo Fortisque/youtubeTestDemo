@@ -56,24 +56,30 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zda-J3-g1z" id="8SC-b0-0HZ">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVX-tH-DMS">
-                                            <rect key="frame" x="8" y="11" width="309" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jVX-tH-DMS">
+                                            <rect key="frame" x="8" y="11" width="534" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="534" id="Ywq-aE-Wef"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9jH-xd-d3e">
-                                            <rect key="frame" x="507" y="-1" width="93" height="43.5"/>
+                                            <rect key="frame" x="542" y="-1" width="58" height="43.5"/>
                                             <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="43.5" id="Lho-Ky-3Xp"/>
-                                                <constraint firstAttribute="width" constant="93" id="g0Q-NS-MoJ"/>
+                                                <constraint firstAttribute="width" constant="58" id="g0Q-NS-MoJ"/>
                                             </constraints>
                                         </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailingMargin" secondItem="9jH-xd-d3e" secondAttribute="trailing" constant="-8" id="Eri-Bz-m76"/>
-                                        <constraint firstItem="9jH-xd-d3e" firstAttribute="top" secondItem="8SC-b0-0HZ" secondAttribute="topMargin" constant="-9" id="u7a-cO-5Q2"/>
+                                        <constraint firstItem="9jH-xd-d3e" firstAttribute="leading" secondItem="jVX-tH-DMS" secondAttribute="trailing" id="43z-fb-EZz"/>
+                                        <constraint firstItem="jVX-tH-DMS" firstAttribute="leading" secondItem="8SC-b0-0HZ" secondAttribute="leadingMargin" id="DCP-ZV-Nw0"/>
+                                        <constraint firstItem="9jH-xd-d3e" firstAttribute="top" secondItem="8SC-b0-0HZ" secondAttribute="topMargin" constant="-9" id="h02-MA-uYK"/>
+                                        <constraint firstItem="jVX-tH-DMS" firstAttribute="top" secondItem="8SC-b0-0HZ" secondAttribute="topMargin" constant="3" id="m86-fV-7yT"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="9jH-xd-d3e" secondAttribute="trailing" constant="-8" id="zbE-zv-ZLc"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
